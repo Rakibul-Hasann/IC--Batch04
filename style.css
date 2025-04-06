@@ -5,8 +5,15 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
+body{
+    margin: 0;
+}
 .container{
-    width: 1250px;
+    width: 1300px;
+    margin: 0 auto;
+}
+.sub-container{
+    width: 1200px;
     margin: 0 auto;
 }
 /* Fixed CSS */
@@ -16,21 +23,29 @@
 /* header section */
 .header-area{}
 .header-container {
-    width: 1285px;
+    width: 1215px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     height: 8vh;
     align-items: center;
 }
-.header-icon{display: flex;justify-content: center;align-items: center;}
+.header-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .header-icon-image{}
 .header-icon-image img{
     margin-top: 8px;
     padding-right: 5px;
+    width: 100%;
 }
 .header-icon-heading{}
-.header-icon-heading h3{display: inline-block;font-size: 40px;font-family: "Montserrat", sans-serif;}
+.header-icon-heading h3{
+    display: inline-block;
+    font-size: 33px;
+    font-family: "Montserrat", sans-serif;}
 .header-menu{
 }
 .menu-item{
@@ -41,16 +56,21 @@
     margin: 0px 32px;
     font-weight: 500;
 }
-.menu-item li a{}
+.menu-item li a {
+    text-decoration: none;
+    color: #000000;
+}
 .header-search{}
-.search-item{
+.search-item {
     display: flex;
+    align-items: center;
 }
 .search-item li{
     list-style: none;
     margin: 0px 15px;
 }
 .search-item li a{}
+.search-item img{}
 /* header section */
 
 
@@ -60,6 +80,10 @@
     text-align: center;
 }
 .hero{
+    
+}
+.hero img{
+    width: 100%;
 }
 /* hero section */
 
@@ -98,7 +122,6 @@
 
 
 
-/* product section */
 /* photo gallery */
 .furniture-gallery{
     margin-top: 4rem;
@@ -237,6 +260,10 @@
 .craetor{}
 .craetor p{padding-bottom: 1.5rem;font-size: 12px;}
 /* footer section */
+
+
+
+/* product section */
 .product-heading {
     margin-top: 3rem;
 }
@@ -253,23 +280,13 @@
 .product-card {
     background: #F4F5F7;
     width: 18rem;
-    /* height: 27rem; */
-    /* position: relative; */
+    border-radius: 3px 3px 6px 6px;
+    overflow: hidden;
 }
-/* .product-card::after{
-    content: "";
-    width: 18rem;
-    height: 27rem;
-    color: black;
-    position: absolute;
-    display: block;
-    opacity: ;
-    z-index: ;
-} */
 .product-img{}
 .product-img img {
     width: 100%;
-    height: 18rem;
+    height: 29vh;
 }
 .product-details{
     padding: 8px 13px 22px 13px;
@@ -440,11 +457,11 @@
     padding: 0rem 4rem;
 }
 .footer-left h3{
-    font-size: 22px;
+    font-size: 25px;
 }
 .footer-left p{
     color: #9F9F9F;
-    font-size: 12px;
+    font-size: 14px;
     margin-top: 2.5rem;
 }
 .footer-middle{
@@ -460,6 +477,7 @@
 }
 .footer-left-list li{
     padding-bottom: 2rem;
+    font-size: 14px;
 }
 .footer-middle-right{}
 .footer-right-list{
@@ -469,10 +487,11 @@
 }
 .footer-right-list li{
     padding-bottom: 2rem;
+    font-size: 14px;
 }
 .footer-right{}
 .footer-right p{
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 500;
     color: #9F9F9F;
 }
@@ -483,8 +502,8 @@
 .footer-right-input input{
     border: none;
     border-bottom: 1px solid black;
-    font-size: 12px;
-    width: 10rem;
+    font-size: 13px;
+    width: 10.5rem;
 }
 .footer-right-input p{
     color: black;
@@ -497,8 +516,8 @@
 .craetor{}
 .craetor p {
     padding-bottom: 1.5rem;
-    font-size: 12px;
-    margin-left: 4rem;
+    font-size: 14px;
+    text-align: center;
 }
 /* footer section */
 
@@ -523,6 +542,3 @@
 
 
 
-/* responsive section  */
-@media
-/* responsive section  */

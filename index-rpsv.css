@@ -1,0 +1,290 @@
+@media screen and (max-width:992px){
+    .container { 
+        width: 992px; 
+        margin: 0px auto; 
+    }
+    .sub-container {
+        width: 990px;
+        margin: 0 auto;
+    }
+    .header-container{
+        width: 992px;
+        padding: 0px 15px;
+    }
+    .menu-item li{
+        margin: 0px 22px;
+        font-size: 15px;
+    }
+    .cetagory-heading{
+        
+        margin-top: 2rem;
+    }
+    .cetagory{
+        margin-top: 2rem;
+        grid-gap: 2rem;
+        padding: 0rem 1rem;
+    }
+    .cetagory-card{
+        width: 100%;
+    }
+    .cetagory-card img{
+        width: 100%;
+    }
+    .product-heading {
+        margin-top: 2rem;
+    }
+    .product{
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        grid-gap: 1rem;
+        padding: 0rem 1rem;
+    }
+    .product-card{
+        width: 100%;
+    }
+    .product-img img {
+        width: 100%;
+        height: 35vh;
+    }
+    .product-btn{
+        margin-top: 2.5rem;
+        margin-bottom: 5rem;
+    }
+    .room-img img{
+        width: 95%;
+        padding-left: 1rem;
+    }
+    .room-details{
+        
+    }
+    .room-img{
+    grid-gap: 0rem;
+    }
+    .gallery{
+        margin-top: 4rem;
+    }
+    .number4{
+        padding-right: 6rem;
+    }
+    .number3{
+        margin-left: 4rem;
+    }
+    .number1{
+        margin-left: 4rem;
+    }
+    .number2{
+        margin-left: 7rem;
+    }
+    .number5{
+        margin-left: 9.5rem;
+    }
+    .number6 {
+        margin-left: 3rem;
+    }
+    .number7{
+    padding-right: 5rem;
+    }
+    .grid-item img{
+    }
+}
+@media screen and (max-width:768px){
+
+}
+
+
+
+@media screen and (max-width: 480px) {
+    .container { 
+        width: 475px; 
+        margin: 0px auto; 
+    }
+    .sub-container {
+        width: 475px;
+        
+    }
+    .hero img{
+     width: 100%;
+    }
+    .cetagory-heading {
+        text-align: center;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .cetagory-heading h3 { 
+        font-size: 25px; 
+        color: rgb(51, 51, 51); 
+    }
+    .cetagory-heading p { 
+        color: rgb(102, 102, 102); 
+        font-size: 13px;
+    }
+    .cetagory-card {
+        margin: 0 auto;
+        text-align: center;
+    }
+    .cetagory-card img {
+        width: 90%;
+        height: 35vh;
+    }
+    .cetagory-card h5 {
+        font-size: 20px;
+        margin-top: 5px;
+        margin-bottom: 25px;
+    }
+    .cetagory {
+        display:block;
+    }
+    .cetagory-area {
+        margin: 0 auto
+    }
+    .product-heading h2{
+        font-size: 28px;
+        margin-bottom: 1.5rem;
+    }
+    .product{
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        grid-gap: 12px;
+        margin-bottom: 1.5rem;
+    }
+    .product-card{
+        margin: 0 auto;
+        width: 100%;
+    }
+    .product-img img{
+        width: 100%;
+        height: 25vh;
+    }
+    .product-btn{
+        margin-bottom: 4rem;
+    }
+    .header-container{
+        width: 470px;
+    }
+    .header-menu{
+        display:none;
+    }
+    .grid{
+        margin-top: 1rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0rem 1rem;
+    }
+    .gallery{
+        margin-top: 3rem;
+    }
+    .grid-item{
+        margin: 0;
+        width: 100%;
+    }
+    .grid-item img{
+        width: 100%;
+    }
+    .footer-left{
+        padding: 0rem 1rem;
+    }
+    .footer-left-list li{
+        padding-bottom: 25px;
+    }
+    .footer-right-list li {
+        padding-bottom: 25px;
+    }
+    .header-icon-heading h3{
+        font-size: 30px;
+    }
+    .search-item li{
+        margin: 0px 10px;
+        padding-top: 8px;
+    }
+    .header-icon-image img{
+        width: 50px;
+    }
+    .search-item img{
+        width: 22px;
+    }
+    .room-img{
+        display: block;
+    }
+    .room-img img{
+        width: 14rem;
+        height: 27vh;
+    }
+    .room-details h3{
+        font-size: 25px;
+        line-height: 2rem;
+    }
+    .room{
+        padding: 10px 10px;
+    }
+    .room-details{
+        width: 100%;
+    }
+    .room-details p{
+        font-size: 13px;
+        margin-top: 23px;
+    }
+    .room-details a{
+        padding: 8px 26px;
+        font-size: 14px;
+    }
+    .gallery h1{
+        font-size: 28px;
+    }
+    .gallery p{
+        font-size: 13px;
+    }
+    .footer-right{
+    margin-left: 15px;
+    }
+    .footer-right-input{
+    margin: 1rem 0rem 2rem 0rem;
+    }
+    .footer-right-input p{
+        margin-left: 1.5rem;
+    }
+    .footer-middle-left{
+    }
+    .footer{
+        display: block;
+        padding-left: 2rem;
+    }
+    .footer-left p{
+        margin-top: 5px;
+    }
+    .footer-middle{
+        padding: 2rem 1rem 1rem 1rem;
+    }
+    .number4{
+        padding-right: 0;
+    }
+    .number7{
+        padding-right: 0;
+    }
+    .product-btn a{
+        font-size: 12px;
+        padding: 9px 70px;
+    }
+    .product-price span{
+        margin-left: 0;
+        display: block;
+        font-size: 11px;
+    }
+    .product-details h5{
+        font-size: 18px;
+    }
+    .product-details p{
+        font-size: 12px;
+        padding: 3px 0px;
+    }
+    .product-price strong{
+        font-size: 14px;
+    }
+    .footer-area{
+        padding-top: 2rem;
+        padding-bottom: 0.5rem;
+    }
+    .craetor p{
+        padding-bottom: 10px;
+        padding-top: 5px;
+    }
+}
