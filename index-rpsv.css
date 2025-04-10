@@ -82,24 +82,20 @@
           margin-top: 1rem;
           margin-bottom: 4rem;
       }
-    .number1{
-        
-margin-left: 5rem;
+    .number1{      
+        margin-left: 5rem;
     }
-    .number2{
-        
-margin-left: 8rem;
+    .number2{  
+        margin-left: 8rem;
     }
     .number3{
         
     }
-    .number4{
-        
-padding-right: 6rem;
+    .number4{   
+        padding-right: 6rem;
     }
-    .number5{
-        
-margin-left: 10.5rem;
+    .number5{   
+        margin-left: 10.5rem;
     }
     .number6{
         
@@ -107,7 +103,20 @@ margin-left: 10.5rem;
     .number7{
         
     }
-  }
+    .overlay-btn > button{
+        
+padding: 8px 38px;
+    }
+    .overlay-action{
+        
+    }
+    .overlay-item > li{
+        
+font-size: 10px;
+        
+padding: 0px 8px;
+    }
+}
 
 
 
@@ -375,9 +384,8 @@ padding: 0;
     .room-details{  
         padding: 0;
     }
-    .footer-left-list li{
-        
-padding-bottom: 1.5rem;
+    .footer-left-list li{     
+        padding-bottom: 1.5rem;
     }
     .footer-right-list li{
         padding-bottom: 1.5rem;
@@ -387,6 +395,9 @@ padding-bottom: 1.5rem;
     }
     .footer-left{
         padding: 0rem 2rem;
+    }
+    .overlay-btn > button {
+        padding: 6px 25px;
     }
 }
 
@@ -584,4 +595,10 @@ padding-bottom: 1.5rem;
     .footer-left-list{
         padding-left: 2.5rem;
     }
+    .overlay-btn{}
+    .overlay-btn > button{}
+    .overlay-action{}
+    .overlay-item{}
+    .overlay-item > li{}
+    .overlay-item > li > a{}
 }
